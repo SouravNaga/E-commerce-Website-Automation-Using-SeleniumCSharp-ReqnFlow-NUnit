@@ -39,7 +39,7 @@ namespace DemoWebShop_Automation.StepDefinitions
         [Then("enter valid password")]
         public void ThenEnterValidPassword()
         {
-            loginpage.enterPassword(config["password"]);
+            loginpage.enterPassword(config["Loginpassword"]);
         }
 
         [Then("click Login button")]

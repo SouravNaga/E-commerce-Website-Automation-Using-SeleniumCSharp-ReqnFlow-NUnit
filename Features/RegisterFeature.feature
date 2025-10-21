@@ -12,6 +12,7 @@ Scenario: Register feature with valid creds
     | Firstname       | sourav            |
     | Lastname   | naga         |
 #	| Email   | sourav123a@gmail.com         |
+	Then enter gmail
 	Then enter password
 	And enter confirm password
 	And click Register button

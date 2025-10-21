@@ -82,6 +82,12 @@ namespace DemoWebShop_Automation.StepDefinitions
         {
             Console.WriteLine("steps to be added");
         }
+        [Then("enter gmail")]
+        public void ThenEnterGmail()
+        {
+            registerpage.enterEmail(config["username"]);
+        }
+
 
     }
 }

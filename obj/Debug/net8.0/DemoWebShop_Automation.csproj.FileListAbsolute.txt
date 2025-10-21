@@ -175,6 +175,7 @@ C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_Automation.AssemblyInfoInputs.cache
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_Automation.AssemblyInfo.cs
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_Automation.csproj.CoreCompileInputs.cache
+C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_Automation.sourcelink.json
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebS.571553B9.Up2Date
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\DemoWebShop_Automation.dll
 C:\Users\soura\source\repos\DemoWebShop_Automation\obj\Debug\net8.0\refint\DemoWebShop_Automation.dll

@@ -1,23 +1,23 @@
 ﻿using AventStack.ExtentReports;
 using Utility;
+using System.Threading;
 
 namespace ReqnFlowFramework.Reporting
 {
     public class ExtentTestManager
     {
-        private static ExtentTest _test;
+        // 🔐 Thread-safe test instance
+        private static ThreadLocal<ExtentTest> _test = new ThreadLocal<ExtentTest>();
 
-        public static ExtentTest CreateTest(string testName)
+        public static void CreateTest(string testName)
         {
-            // ✅ Assume ExtentReportManager.GetExtent() already called in Hooks
             var extent = ExtentReportManager.GetExtent();
-            _test = extent.CreateTest(testName);
-            return _test;
+            _test.Value = extent.CreateTest(testName);
         }
 
         public static ExtentTest GetTest()
         {
-            return _test;
+            return _test.Value;
         }
     }
 }
